@@ -3,6 +3,7 @@
  * ======================
  * Filtered-X LMS Active Noise Cancellation
  * Zynq PS bare-metal with Scatter-Gather DMA (Serial Telemetry Version)
+ * Enable Most Optimization (-03) AND add -ffast-math flag in miscellaneous compiler options for best cancellation 
  */
 
 #include "xparameters.h"
@@ -483,3 +484,4 @@ int main(void) {
 
     return 0;
 }
+
